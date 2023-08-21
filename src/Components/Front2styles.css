@@ -1,0 +1,45 @@
+.front2{
+    width:100%;
+    height:80vh;
+    background-color:rgba(0, 0, 0, 0.5);
+    position:relative;
+}
+.front2::before{
+    content: "";
+    background-image: url("../media/img2.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+.front2head{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.front2head p{
+    color: aliceblue;
+    /* font-weight: bold; */
+    font-size: larger;
+}
+.front2head h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+@media screen and (max-width:500px){
+    .front2head h1{
+        font-size: 1rem;
+    }
+    .front2head p{
+        font-size: small;
+    }
+}

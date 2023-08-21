@@ -1,0 +1,10 @@
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:500px){
+    .footercontainer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
