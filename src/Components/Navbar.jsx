@@ -13,21 +13,21 @@ function Navbar() {
   return (
     <>
     <div className="header">
-        <Link to="/"><h1>Portfolio</h1></Link>
+        <Link to="/"><h1>Tuh<span>i</span>n </h1></Link>
         <ul className={ham? "navbar-menu.active":"navbar-menu"}>
             <li>
                 <Link to="/">Home</Link>
             </li>
-        
+            <li>
+                <Link to="/services">Services</Link>
+            </li>        
             <li>
                 <Link to="/contact">Contact</Link>
             </li>
             <li>
-                <Link to="/services">Services</Link>
-            </li>
-            <li>
                 <Link to="/about">About</Link>
             </li>
+
         </ul>
         <div className="hamburger" onClick={handleClick}>
             {ham?(<FaWindowClose size={20} style={{color:'#ffffcc'}}/>):

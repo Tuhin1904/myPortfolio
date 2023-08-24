@@ -9,7 +9,7 @@ function About() {
   return (
     <>
       <Navbar/>
-      <Front2 heading="Hello, I'm Tuhin Ghosh." text="I make websites/SPA what load fast and are responsive"/>
+      <Front2 heading="Hello, I'm Tuhin Ghosh." text="I make websites/SPA which load fast and are responsive"/>
       <Aboutcontent/>
       <Footer/>
     </>

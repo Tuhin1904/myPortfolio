@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+.front3{
+    height:100%;
+    width:100%;
+    position: relative;
+}
+.cards{
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+    height: 80%;
+    justify-content: space-around;
+}
+.cards .card{
+    background-color: rgba(2, 2, 2, 0.6);
+    margin: 2vw;
+    height: 90%;
+    width: 40%;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1vh;
+}
+.front3 .cards{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    text-align: center;
+}
+.front3 .cards h2{
+    font-size: 2vw;
+    font-family: 'Slabo 27px', serif;
+    color:wheat;
+    opacity: 100%;
+}
+.front3 .cards p{
+    font-size: 1.2vw;
+    color: wheat;
+}
+.cards .card img{
+    /* width:90%; */
+    /* padding: 10px; */
+    border-radius: 30px;
+    
+    max-height: 80%;
+}
+
+hr{
+    margin: 4px 0 0 0;
+    width: 100%;
+}

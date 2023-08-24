@@ -18,16 +18,16 @@
 .btn button{
     border-radius: 20px;
     padding: 10px 12px;
-    font-size: x-large;
+    font-size: 5vh;
     background-color: transparent;
     border: 3px solid white;
-    color: black;
-    }
-    .btn button:hover{
-        background-color: rgb(13, 13, 69,0.5);
-        color: white;
-
-    }
+    color: rgb(230, 216, 216);
+}
+.btn button:hover{
+    background-color: rgb(13, 13, 69,0.5);
+    color: white;
+    font-size: xx-large;
+}
 .mask::after{
     content:"";
     width: 100%;
@@ -50,21 +50,21 @@
     text-align: center;
 }
 .front1 .content h1{
-    font-size: 4rem;
+    font-size: 7vh;
     padding: 1rem 0.5rem;
 }
 .front1 .content p{
-    font-size: 1.5rem;
+    font-size: 4vh;
     padding: .5rem 0.5rem;
     color: aliceblue;
 }
 @media screen and (max-width:500px){
     .front1 .content h1{
-        font-size: 2rem;
+        font-size: 3vh;
         padding: 0.5rem 0.2rem;
     }
     .front1 .content p{
-        font-size: 1rem;
+        font-size: 3vh;
         padding: .2rem 0.2rem;
     }
     .btn button{
