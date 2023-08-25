@@ -6,11 +6,11 @@ import React from 'react'
 function Aboutcontent() {
   return (
     <>
-       <div className="front1">
-      <div className="mask">
+       <div className="frontabout">
+      <div className="mask6">
         <img className="bgImg" src={Image1} alt="backgroundImage" />
       </div>
-      <div className="content">
+      <div className="contentabout">
       <div className='card'>
         <div className='education'>
             <hr/>

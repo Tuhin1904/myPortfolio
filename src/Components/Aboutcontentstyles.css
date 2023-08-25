@@ -1,7 +1,7 @@
-.content{
+.contentabout{
     display: flex;
 }
-.content .card{
+.contentabout .card{
     background-color: rgba(80, 173, 142, 0.5);
     margin: 0 2rem;
     border-radius: 10px;
@@ -11,4 +11,31 @@
 }
 .education p{
     text-align: justify;
+    color: white;
+}
+.mask6{
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+.mask6::after{
+    content:"";
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgb(13, 13, 69);
+    opacity:50%;
+}
+.frontabout{
+    height:100%;
+    width:100%;
+}
+.frontabout .contentabout{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    text-align: center;
 }
