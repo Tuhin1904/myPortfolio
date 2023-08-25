@@ -62,4 +62,11 @@ hr{
     margin: 1rem 0;
     margin: auto;
 }
-/* */
+@media screen and (max-width:550px) {
+    .front3 .cards{
+        height: 20rem;
+        width: 25rem;
+        flex-direction:column;
+        align-items: center;
+    }
+}

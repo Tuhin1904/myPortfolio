@@ -57,7 +57,7 @@
     padding: .5rem 0.5rem;
     color: aliceblue;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     .front1 .content h1{
         font-size: 3vh;
         padding: 0.5rem 0.2rem;

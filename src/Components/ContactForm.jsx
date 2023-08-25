@@ -30,7 +30,7 @@ return (
           <label for="subject">Write what you want from me?</label>
           <textarea id="subject" name="subject" placeholder="Write your query or question"></textarea>
 
-          <button id='sbtn'>Submit</button>
+          <input type="submit" value="Submit" id="sbtn"/>
 
       </form>
       </div>
