@@ -12,7 +12,7 @@ return (
       <div id='outerDiv'>
       <div className='content4'>
       <form>
-          <h2 style={{textAlign:"center",textDecoration:"underline"}}>Contact Form</h2>
+          <h2 style={{textAlign:"center",textDecoration:"underline"}}>If you have any questions, fill this form</h2>
           <label for="fname">First Name</label>
           <input type="text" className="name" name="firstname" placeholder="Write"/>
 
@@ -30,7 +30,7 @@ return (
           <label for="subject">Write what you want from me?</label>
           <textarea id="subject" name="subject" placeholder="Write your query or question"></textarea>
 
-          <input type="submit" value="Submit" id="sbtn"/>
+          <button id='sbtn'>Submit</button>
 
       </form>
       </div>

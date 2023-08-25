@@ -86,8 +86,24 @@ form label{
 #outerDiv .content4 { 
     background-color: rgba(199, 187, 187,0.6);
 }
+#outerDiv .content4 input{
+    width:100%;
+}
+#outerDiv .content4 textarea{
+    width:100%;
+}
 @media screen and (max-width:500px) {
+
     #outerDiv .content4 label{
         font-size: small;
+    }
+    #outerDiv .content4 input{
+        width:100%;
+    }
+    #outerDiv .content4 textarea{
+        width: 100%;
+    }
+    #outerDiv .content4{
+        
     }
 }
