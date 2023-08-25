@@ -2,9 +2,10 @@
     display: flex;
 }
 .contentabout .card{
-    background-color: rgba(80, 173, 142, 0.5);
+    background-color: rgba(69, 87, 81, 0.6);
     margin: 0 2rem;
     border-radius: 10px;
+    padding: 2.5rem;
 }
 .education{
     width: 25vw;

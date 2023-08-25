@@ -70,6 +70,10 @@
         font-size: 1rem;
         border: 2px solid white;
     }
+    .content .bigButton{
+        display: flex;
+        margin: 10px 0;
+    }
 }
 @media screen and (max-width:280px){
     .front1 .content h1{

@@ -7,10 +7,6 @@
 .header a {
   font-family: 'Lato', sans-serif;
   }
-.header h1{
-  font-family: 'Lato', sans-serif;
-  color: wheat
-}
 h1 span{
   font-family: 'Pacifico', cursive;
   color: red;
@@ -41,6 +37,10 @@ h1 span{
     z-index: 10;
     background-color:rgb(33, 23, 23,0.7);
   }
+  .header h1{
+    font-family: 'Lato', sans-serif;
+    color: wheat;
+  }
   .hamburger{
     display: none;
   }
@@ -59,6 +59,7 @@ h1 span{
     }
     .header h1{
       font-size: 20px;
+      margin: -8px;
     }
     .unordered{
       margin: 0 0 0 9rem;
@@ -71,6 +72,7 @@ h1 span{
     ul li{
       list-style: none;
       border-radius: 15px;
+      font-size: xx-large;
     }
     .navbar-menu:active{
         left:0%;

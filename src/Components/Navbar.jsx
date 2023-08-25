@@ -33,9 +33,7 @@ function Navbar() {
         <div className="hamburger" onClick={handleClick}>
             {ham?(<FaWindowClose size={20} style={{color:'#ffffcc'}}/>):
             (<FaBars size={20} style={{color:'#ffffcc'}}/>)
-            }
-            
-            
+            }  
         </div>
         
     </div>
