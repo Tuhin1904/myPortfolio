@@ -9,9 +9,10 @@ return (
       <div className="mask4">
         <img className="bgImg2" src={Image3} alt="backgroundImage" />
       </div>
+      <div id='outerDiv'>
       <div className='content4'>
       <form>
-
+          <h2 style={{textAlign:"center",textDecoration:"underline"}}>Contact Form</h2>
           <label for="fname">First Name</label>
           <input type="text" className="name" name="firstname" placeholder="Write"/>
 
@@ -31,7 +32,8 @@ return (
 
           <input type="submit" value="Submit" id="sbtn"/>
 
-  </form>
+      </form>
+      </div>
       </div>
   </div>
     </>

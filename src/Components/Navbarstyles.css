@@ -55,6 +55,22 @@ h1 span{
         left:-100%;
         z-index:-3;
         transition: 0.5s;
+        margin-left: 20px;
+    }
+    .header h1{
+      font-size: 20px;
+    }
+    .unordered{
+      margin: 0 0 0 9rem;
+    }
+    .unordered ul{
+      padding: 15px;
+      background-color: rgba(113, 116, 115, 0.5);
+      border-radius: 15px;
+    }
+    ul li{
+      list-style: none;
+      border-radius: 15px;
     }
     .navbar-menu:active{
         left:0%;
@@ -64,6 +80,9 @@ h1 span{
     }
     .navbar-menu li a{
         font-size: 2rem;
+    }
+    .navbar ul li{
+      list-style: none;
     }
     .hamburger{
         display: initial;

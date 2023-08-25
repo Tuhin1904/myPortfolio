@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+}
+.content .card{
+    background-color: rgba(80, 173, 142, 0.5);
+    margin: 0 2rem;
+    border-radius: 10px;
+}
+.education{
+    width: 25vw;
+}
+.education p{
+    text-align: justify;
+}

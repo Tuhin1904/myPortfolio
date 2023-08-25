@@ -14,6 +14,7 @@ function Navbar() {
     <>
     <div className="header">
         <Link to="/"><h1>Tuh<span>i</span>n </h1></Link>
+        <div class="unordered">
         <ul className={ham? "navbar-menu.active":"navbar-menu"}>
             <li>
                 <Link to="/">Home</Link>
@@ -27,8 +28,8 @@ function Navbar() {
             <li>
                 <Link to="/about">About</Link>
             </li>
-
         </ul>
+        </div>
         <div className="hamburger" onClick={handleClick}>
             {ham?(<FaWindowClose size={20} style={{color:'#ffffcc'}}/>):
             (<FaBars size={20} style={{color:'#ffffcc'}}/>)
