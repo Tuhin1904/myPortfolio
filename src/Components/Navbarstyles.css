@@ -54,7 +54,7 @@ h1 span{
         position:absolute;
         left:-100%;
         z-index:-3;
-        transition: 0.5s;
+        transition: 1s;
         margin-left: 20px;
     }
     .header h1{
@@ -62,7 +62,7 @@ h1 span{
       margin: -8px;
     }
     .unordered{
-      margin: 0 0 0 9rem;
+      margin: 0 0 0 -28vw;
     }
     .unordered ul{
       padding: 15px;
